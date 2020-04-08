@@ -39,9 +39,9 @@ class Partner extends Component {
 
     render() {
         return (
-            <section className="partner-area">
+            <section className="partner-area-three">
                 <div className="container">
-                    <h3>Trusted by over 2.5 milions company</h3>
+                    <h3>Nossos clientes</h3>
 
                     <div className="row">
                         {this.state.display ? <OwlCarousel 
@@ -52,7 +52,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src={require('../../images/agency-partner1.png')} alt="logo" />
+                                            <img src={require("../../novasImagens/parceiros/clipel.jpg")} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -62,7 +62,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src={require('../../images/agency-partner2.png')} alt="logo" />
+                                            <img src={require("../../novasImagens/parceiros/laSalle.jpg")} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -72,7 +72,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src={require('../../images/agency-partner3.png')} alt="logo" />
+                                            <img src={require("../../novasImagens/parceiros/livrariaRossi.jpg")} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -82,7 +82,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src={require('../../images/agency-partner4.png')} alt="logo" />
+                                            <img src={require("../../novasImagens/parceiros/maxplin.jpg")} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -92,7 +92,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src={require('../../images/agency-partner5.png')} alt="logo" />
+                                            <img src={require("../../novasImagens/parceiros/ucs.jpg")} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
@@ -102,11 +102,43 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src={require('../../images/agency-partner6.png')} alt="logo" />
+                                            <img src={require("../../novasImagens/parceiros/upf.png")} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
                             </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="partner-item">
+                                    <Link href="#">
+                                        <a>
+                                            <img src={require("../../novasImagens/parceiros/multiSports.jpg")} alt="logo" />
+                                        </a>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="partner-item">
+                                    <Link href="#">
+                                        <a>
+                                            <img src={require("../../novasImagens/parceiros/unisc.jpg")} alt="logo" />
+                                        </a>
+                                    </Link>
+                                </div>
+                            </div>
+
+
+                            <div className="col-lg-12 col-md-12">
+                                <div className="partner-item">
+                                    <Link href="#">
+                                        <a>
+                                            <img src={require("../../novasImagens/parceiros/univates.jpg")} alt="logo" />
+                                        </a>
+                                    </Link>
+                                </div>
+                            </div>
+
                         </OwlCarousel> : ''}
                     </div>
                 </div>

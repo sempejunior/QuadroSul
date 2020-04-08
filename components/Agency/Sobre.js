@@ -8,7 +8,7 @@ class About extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="about-image">
-                                <img src={require('../../imagensQuadroSul/IMG-20191129-WA0122-01.jpeg')} alt="image" />
+                                <img src={require('../../novasImagens/trabalho/IMG-20200217-WA0030.jpg')} alt="image" />
                             </div>
                         </div>
 
@@ -22,13 +22,17 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <i className="fas fa-desktop"></i>
+                                                    <i class="fas fa-radiation-alt"></i>
                                                 </div>
+
+
 
                                                 <h3>Missão</h3>
                                             </div>
 
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                            <p>Atender nossos clientes de uma forma cordial, acatando as suas necessidades e superando suas expectativas,
+                                               oferecendo-lhes produtos e serviços de alta qualidade, sempre mantendo o mesmo padrão de desenvolver,
+                                               produzir e comercializar quadros, mantendo a satisfação do cliente em cada atendimento prestado.</p>
                                         </div>
                                     </div>
 
@@ -36,32 +40,37 @@ class About extends Component {
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <i className="fas fa-tasks"></i>
+                                                    <i class="far fa-eye"></i>
                                                 </div>
 
                                                 <h3>Visão</h3>
                                             </div>
-
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                            <p>Ser uma empresa referencia no mercado de quadros escolares, ganhar destaque pela qualidade dos produtos ofertados, ser reconhecida como a melhor opção pelos seus clientes, colaboladores e fornecedores pelos serviços prestados e seus relacionamentos como um todos.</p>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-6 col-md-6">
+                                    <div className="col-lg-12 col-md-6">
                                         <div className="single-inner-content">
                                             <div className="title">
                                                 <div className="icon">
-                                                    <i className="fas fa-code"></i>
+                                                    <i class="fas fa-dollar-sign"></i>
                                                 </div>
 
                                                 <h3>Valores</h3>
                                             </div>
 
-                                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                            <p>-Fidelizar clientes;  <br />
+                                                -Apoiar e sustentar um bom relacionamento entre nossos colaboladores e todos que participam do nosso dia a dia; <br />
+                                                -Manter a ética, transparencia e comprometimento da nossa empresa; <br />
+                                                -Satisfação dos nossos clientes;<br />
+                                                -Valorização e respeito com todas as pessoas que conosco convivem; <br />
+                                                -Ter responsabilidade social e respeito ao meio ambiente. <br />
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <a href="#" className="btn btn-primary">Read More</a>
+                                {/* <a href="#" className="btn btn-primary">Read More</a> */}
                             </div>
                         </div>
                     </div>

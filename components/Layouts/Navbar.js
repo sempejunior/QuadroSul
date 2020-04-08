@@ -18,13 +18,15 @@ class Navbar extends Component {
     componentDidMount() {
         this._isMounted = true;
         let elementId = document.getElementById("navbar");
-        document.addEventListener("scroll", () => {
-            if (window.scrollY > 170) {
-                elementId.classList.add("is-sticky");
-            } else {
-                elementId.classList.remove("is-sticky");
-            }
-        });
+        elementId.classList.add("is-sticky");
+
+        // document.addEventListener("scroll", () => {
+        //     // if (window.scrollY > 170) {
+                
+        //     // } else {
+        //     //     elementId.classList.remove("is-sticky");
+        //     // }
+        // });
         window.scrollTo(0, 0);
 
         this.menuActiveClass()
@@ -126,16 +128,6 @@ class Navbar extends Component {
                                     Comentários
                                 </AnchorLink>
                             </li>
-                            {/* <li className="nav-item">
-                                <AnchorLink 
-                                    onClick={this.toggleNavbar} 
-                                    offset={() => 0} 
-                                    className="nav-link" 
-                                    href="#features"
-                                >
-                                    Features
-                                </AnchorLink>
-                            </li> */}
                            
                             <li className="nav-item">
                                 <AnchorLink 

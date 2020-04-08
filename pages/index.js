@@ -5,7 +5,7 @@ import Banner from '../components/Agency/Banner';
 import Sobre from '../components/Agency/Sobre';
 import Services from '../components/Agency/Services';
 import Testimonials from '../components/Agency/Testimonials';
-import Pricing from '../components/Agency/Pricing';
+import Partner from '../components/Agency/Partner';
 import Portifolio from '../components/Agency/Portifolio';
 import Faq from '../components/Agency/Faq'
 import Contact from '../components/Agency/Contact';
@@ -17,6 +17,7 @@ class Index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Banner />
+                <Partner />
                 <Sobre />
                 <Services/>
                 <Testimonials />
