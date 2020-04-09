@@ -125,8 +125,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_react_modal_video_scss_modal_video_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _novasImagens_fundo_whiteboard1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../novasImagens/fundo/whiteboard1.jpg */ "./novasImagens/fundo/whiteboard1.jpg");
 /* harmony import */ var _novasImagens_fundo_whiteboard1_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_novasImagens_fundo_whiteboard1_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _novasImagens_logos_logo6_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../novasImagens/logos/logo6.png */ "./novasImagens/logos/logo6.png");
-/* harmony import */ var _novasImagens_logos_logo6_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_novasImagens_logos_logo6_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _novasImagens_logos_logo7_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../novasImagens/logos/logo7.png */ "./novasImagens/logos/logo7.png");
+/* harmony import */ var _novasImagens_logos_logo7_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_novasImagens_logos_logo7_png__WEBPACK_IMPORTED_MODULE_5__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -175,7 +175,7 @@ class Banner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, __jsx("a", {
       className: "navbar-brand"
     }, __jsx("img", {
-      src: _novasImagens_logos_logo6_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+      src: _novasImagens_logos_logo7_png__WEBPACK_IMPORTED_MODULE_5___default.a,
       alt: "logo",
       style: {
         maxWidth: 350
@@ -1119,7 +1119,9 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       className: "icon"
     }, __jsx("i", {
       class: "fas fa-dollar-sign"
-    })), __jsx("h3", null, "Valores")), __jsx("p", null, "-Fidelizar clientes;  ", __jsx("br", null), "-Apoiar e sustentar um bom relacionamento entre nossos colaboladores e todos que participam do nosso dia a dia; ", __jsx("br", null), "-Manter a \xE9tica, transparencia e comprometimento da nossa empresa; ", __jsx("br", null), "-Satisfa\xE7\xE3o dos nossos clientes;", __jsx("br", null), "-Valoriza\xE7\xE3o e respeito com todas as pessoas que conosco convivem; ", __jsx("br", null), "-Ter responsabilidade social e respeito ao meio ambiente. ", __jsx("br", null))))))))), __jsx("div", {
+    })), __jsx("h3", null, "Valores")), __jsx("div", {
+      className: "multiple-p"
+    }, __jsx("p", null, __jsx("strong", null, "-"), " Fidelizar clientes;"), __jsx("p", null, __jsx("strong", null, "-"), " Apoiar e sustentar um bom relacionamento entre nossos colaboladores e todos que participam do nosso dia a dia;"), __jsx("p", null, __jsx("strong", null, "-"), " Manter a \xE9tica, transparencia e comprometimento da nossa empresa;"), __jsx("p", null, __jsx("strong", null, "-"), " Satisfa\xE7\xE3o dos nossos clientes;"), __jsx("p", null, __jsx("strong", null, "-"), " Valoriza\xE7\xE3o e respeito com todas as pessoas que conosco convivem;"), __jsx("p", null, __jsx("strong", null, "-"), " Ter responsabilidade social e respeito ao meio ambiente."))))))))), __jsx("div", {
       className: "circle"
     }, __jsx("img", {
       src: __webpack_require__(/*! ../../images/circle.png */ "./images/circle.png"),
@@ -3551,14 +3553,14 @@ module.exports = "/_next/static/images/whiteboard1-deb44aa807a7b2d2cedc927502621
 
 /***/ }),
 
-/***/ "./novasImagens/logos/logo6.png":
+/***/ "./novasImagens/logos/logo7.png":
 /*!**************************************!*\
-  !*** ./novasImagens/logos/logo6.png ***!
+  !*** ./novasImagens/logos/logo7.png ***!
   \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/logo6-6b8835d7314db7bc01114f43b3e16acb.png";
+module.exports = "/_next/static/images/logo7-01fbc29a362dd91d75fc4d4a4381e92c.png";
 
 /***/ }),
 

@@ -58,14 +58,14 @@ class About extends Component {
 
                                                 <h3>Valores</h3>
                                             </div>
-
-                                            <p>-Fidelizar clientes;  <br />
-                                                -Apoiar e sustentar um bom relacionamento entre nossos colaboladores e todos que participam do nosso dia a dia; <br />
-                                                -Manter a ética, transparencia e comprometimento da nossa empresa; <br />
-                                                -Satisfação dos nossos clientes;<br />
-                                                -Valorização e respeito com todas as pessoas que conosco convivem; <br />
-                                                -Ter responsabilidade social e respeito ao meio ambiente. <br />
-                                            </p>
+                                            <div className="multiple-p" > 
+                                                <p><strong>-</strong> Fidelizar clientes;</p>
+                                                <p><strong>-</strong> Apoiar e sustentar um bom relacionamento entre nossos colaboladores e todos que participam do nosso dia a dia;</p>
+                                                <p><strong>-</strong> Manter a ética, transparencia e comprometimento da nossa empresa;</p>
+                                                <p><strong>-</strong> Satisfação dos nossos clientes;</p>
+                                                <p><strong>-</strong> Valorização e respeito com todas as pessoas que conosco convivem;</p>
+                                                <p><strong>-</strong> Ter responsabilidade social e respeito ao meio ambiente.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

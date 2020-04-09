@@ -3,7 +3,7 @@ import Link from 'next/link';
 import ModalVideo from 'react-modal-video';
 import '../../node_modules/react-modal-video/scss/modal-video.scss';
 import Background from '../../novasImagens/fundo/whiteboard1.jpg';
-import Logo from '../../novasImagens/logos/logo6.png';
+import Logo from '../../novasImagens/logos/logo7.png';
 
 class Banner extends Component {
 
@@ -37,30 +37,30 @@ class Banner extends Component {
                                         <img src={Logo} alt="logo" style={{ maxWidth: 350 }} />
                                     </a>
                                     <p><strong>Empresa especializada na produção de quadros e de outros elementos essenciais para uma boa comunicação visual</strong></p>
-                                <div className="btn-box">
+                                    <div className="btn-box">
 
 
-                                    {<Link href="#">
-                                        <a
-                                            className="popup-youtube video-btn"
-                                            onClick={e => { e.preventDefault(); this.openModal() }}
-                                        >
-                                            <i className="fab fa-google-play"></i>
-                                            Watch our video
+                                        {<Link href="#">
+                                            <a
+                                                className="popup-youtube video-btn"
+                                                onClick={e => { e.preventDefault(); this.openModal() }}
+                                            >
+                                                <i className="fab fa-google-play"></i>
+                                                Watch our video
                                             </a>
-                                    </Link>}
+                                        </Link>}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
-            <ModalVideo
-                channel='youtube'
-                isOpen={this.state.isOpen}
-                videoId='szuchBiLrEM'
-                onClose={() => this.setState({ isOpen: false })}
-            />
+                <ModalVideo
+                    channel='youtube'
+                    isOpen={this.state.isOpen}
+                    videoId='szuchBiLrEM'
+                    onClose={() => this.setState({ isOpen: false })}
+                />
             </React.Fragment >
         );
     }
