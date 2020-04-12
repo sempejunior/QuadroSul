@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import { FaFacebook, FaMapMarkerAlt } from 'react-icons/fa';
 
 class Footer extends Component {
     render() {
@@ -12,133 +13,58 @@ class Footer extends Component {
                                 <div className="logo">
                                     <Link href="/agency">
                                         <a>
-                                            <img src={require('../../images/black-logo.png')} alt="logo" />
+                                            <img src={require('../../imagensQuadroSul/logo.png')} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>
-        
+
                                 <ul className="contact-info">
-                                    <li>1828 Johns Drive Glenview, IL 60025</li>
                                     <li>
-                                        <Link href="#">
-                                            <a>(224) 228-8475</a>
-                                        </Link>
+                                        Rua Irmão Inocencio Luis, 670
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>support@pluck.com</a>
-                                        </Link>
+                                        <a>Bairro: Jardim Itu Sabara</a>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>www.pluck.com</a>
-                                        </Link>
+                                        <a>Cidade: Porto Alegre / RS</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-footer-widget">
+                                <h3>Contatos</h3>
+                                <ul className="contact-info">
+                                    <li>
+                                        <a>(51) 3374-3668</a>
+                                    </li>
+                                    <li>
+                                        <a>(51) 3374-2873</a>
+                                    </li>
+                                    <li>
+                                        <a>quadrosul@terra.com.br</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
 
                         <div className="col-lg-2 col-md-6">
                             <div className="single-footer-widget pl-3">
-                                <h3>Quick Links</h3>
-        
+                                <h3>Midias Sociais</h3>
+
                                 <ul className="list">
                                     <li>
-                                        <Link href="#">
-                                            <a>Home</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Features</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Screenshots</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Pricing</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>News</a>
+                                        <Link href="https://www.facebook.com/quadrosul.quadros.5">
+                                            <a><FaFacebook size={18} color="#e02041"/> Facebook</a>
                                         </Link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget pl-5">
-                                <h3>Support</h3>
-        
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>Quick Support</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Copyright</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Terms & Conditions</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Testimonials</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget">
-                                <h3>My Account</h3>
-
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>Managed Account</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Create Account</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Download Software</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Support Center</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Account Security</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -146,28 +72,22 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-7">
-                                <p><i className="far fa-copyright"></i> 2019 <a href="/">Genial</a>. All Rights Reserved</p>
+                                <p><i className="far fa-copyright"></i> Desenvolvido por Carlos Augusto Sempé Júnior</p>
                             </div>
-
                             <div className="col-lg-5 col-md-5">
                                 <ul>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="https://www.facebook.com/profile.php?id=1219184345">
                                             <a><i className="fab fa-facebook-f"></i></a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a><i className="fab fa-twitter"></i></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
+                                        <Link href="https://www.instagram.com/sempejunior/">
                                             <a><i className="fab fa-instagram"></i></a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="https://www.linkedin.com/in/carlos-augusto-semp%C3%A9-junior-46b90252/">
                                             <a><i className="fab fa-linkedin-in"></i></a>
                                         </Link>
                                     </li>

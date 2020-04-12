@@ -20,13 +20,6 @@ class Navbar extends Component {
         let elementId = document.getElementById("navbar");
         elementId.classList.add("is-sticky");
 
-        // document.addEventListener("scroll", () => {
-        //     // if (window.scrollY > 170) {
-                
-        //     // } else {
-        //     //     elementId.classList.remove("is-sticky");
-        //     // }
-        // });
         window.scrollTo(0, 0);
 
         this.menuActiveClass()
@@ -62,11 +55,10 @@ class Navbar extends Component {
             <SeoSection 
                 title="Quadro Sul"
                 desc="Quadrosul Indústria e Comércio de Quadros Ltda"
-                url="https://genial-react.envytheme.com/agency"
             />
             <nav id="navbar" className="navbar navbar-expand-lg navbar-style-one navbar-light bg-light">
                 <div className="container">
-                    <Link href="/agency">
+                    <Link href="#">
                         <a className="navbar-brand">
                             <img src={require("../../imagensQuadroSul/logo.png")} alt="logo" />
                             <img src={require('../../imagensQuadroSul/logo.png')} alt="logo" />
@@ -147,14 +139,8 @@ class Navbar extends Component {
                                     className="nav-link" 
                                     href="#contact"
                                 >
-                                    Contact
+                                    Contato
                                 </AnchorLink>
-                            </li>
-                        </ul>
-
-                        <ul className="others-option">
-                            <li>
-                                <a href="/signin" className="btn btn-primary">sign in</a>
                             </li>
                         </ul>
                     </div>

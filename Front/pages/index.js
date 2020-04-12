@@ -9,7 +9,6 @@ import Partner from '../components/Agency/Partner';
 // import Portifolio from '../components/Agency/Portifolio';
 import Faq from '../components/Agency/Faq'
 import Contact from '../components/Agency/Contact';
-import Subscribe from '../components/Agency/Subscribe';
 
 class Index extends Component {
     render() {
@@ -21,11 +20,8 @@ class Index extends Component {
                 <Sobre />
                 <Produtos/>
                 <Testimonials />
-                
-                {/* <Portifolio/> */}
                 <Faq/>
                 <Contact />
-                <Subscribe />
                 <Footer />
             </React.Fragment>
         );

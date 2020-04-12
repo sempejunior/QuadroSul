@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
+import { MdPersonPinCircle, MdFeedback} from "react-icons/md";
 
 const options = {
     loop: true,
@@ -14,23 +15,23 @@ const options = {
     ],
     responsive: {
         0: {
-            items:1,
+            items: 1,
         },
         768: {
-            items:2,
+            items: 2,
         },
         1200: {
-            items:3,
+            items: 3,
         }
     }
 }
 
 class Testimonials extends Component {
 
-    state = { display:false};
+    state = { display: false };
 
-    componentDidMount(){ 
-        this.setState({ display: true }) 
+    componentDidMount() {
+        this.setState({ display: true })
     }
 
     render() {
@@ -38,23 +39,26 @@ class Testimonials extends Component {
             <section id="testimonials" className="feedback-area ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our customer feedback</h2>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <h2><MdFeedback size={25} color="#e02041"></MdFeedback> Nossos feedbacks</h2>
+                        <a href="https://www.google.com/search?q=quadrosul&rlz=1C1GCEU_pt-brBR856BR856&oq=quadrosul&aqs=chrome..69i57j0l5j69i64.2183j1j7&sourceid=chrome&ie=UTF-8#lrd=0x951977cdb7afbdc5:0x6d772190f75433c9,1,,," target="_blank">
+                            <img src={require("../../novasImagens/trabalho/comentarios.PNG")} alt="client" />
+                        </a>
+
                     </div>
 
                     <div className="row">
-                        {this.state.display ? <OwlCarousel 
+                        {this.state.display ? <OwlCarousel
                             className="feedback-slides owl-carousel owl-theme"
                             {...options}
                         >
                             <div className="col-lg-12 col-md-12">
                                 <div className="feedback-item">
-                                    <img src={require('../../images/client1.png')} alt="client" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                    {/* <img src={require('../../images/client1.png')} alt="client" /> */}
+                                    <MdPersonPinCircle size={80} color="#e02041"></MdPersonPinCircle>
+                                    <p>Havia comprado um quadro usado muito bom. Havia uma etiqueta da fábrica quadrosul. Precisei de mais um. Telefonei, encomendei. Otimo quadro branco. Fortes, bom acabamento, fácil de apagar.</p>
 
                                     <div className="client-info">
-                                        <h3>Jason Sthatham</h3>
-                                        <span>CEO ThemeForest</span>
+                                        <h3>Anônimo</h3>
                                     </div>
 
                                     <i className="fas fa-quote-left"></i>
@@ -63,12 +67,11 @@ class Testimonials extends Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="feedback-item">
-                                    <img src={require('../../images/client2.png')} alt="client" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                    <MdPersonPinCircle size={80} color="#e02041"></MdPersonPinCircle>
+                                    <p>Ótimo atendimento, entrega rápida e material de ótima qualidade.</p>
 
                                     <div className="client-info">
-                                        <h3>Steven Smith</h3>
-                                        <span>CEO EnvyTheme</span>
+                                        <h3>Anônimo</h3>
                                     </div>
 
                                     <i className="fas fa-quote-left"></i>
@@ -77,12 +80,11 @@ class Testimonials extends Component {
 
                             <div className="col-lg-12 col-md-12">
                                 <div className="feedback-item">
-                                    <img src={require('../../images/client3.png')} alt="client" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <MdPersonPinCircle size={80} color="#e02041"></MdPersonPinCircle>
+                                    <p>Ótimos profissionais e qualidade nos materiais.</p>
 
                                     <div className="client-info">
-                                        <h3>David Warner</h3>
-                                        <span>CEO Company</span>
+                                        <h3>Anônimo</h3>
                                     </div>
 
                                     <i className="fas fa-quote-left"></i>

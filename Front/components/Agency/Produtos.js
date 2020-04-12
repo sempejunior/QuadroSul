@@ -14,7 +14,7 @@ class Produtos extends Component {
                         <div className="col-lg-12 col-md-6" >
                             <div className="car-subscription-section-title">
 
-                                <span><strong> <FiClipboard size={18} color="#e02041"></FiClipboard> Quadro de Avisos</strong></span>
+                                <span><strong> <FiClipboard size={18} color="#e02041"></FiClipboard> Quadros de Avisos</strong></span>
                             </div>
                             <div style={{ display: 'flex' }}>
                                 <div className="col-lg-6 col-md-6">
@@ -79,9 +79,9 @@ class Produtos extends Component {
                                 </div>
                                 <div className="col-lg-6 col-md-6">
                                     <div className="services-box">
-                                        <img src={require("../../novasImagens/quadros/11.jpg")} alt="services" />
+                                        <img src={require("../../novasImagens/quadros/18.jpg")} alt="services" />
                                         <div className="services-content">
-                                            <p><strong>Quadro eucadur branco com moldura em madeira.</strong></p>
+                                            <p><strong>Kit infantil com marcador e apagador, moldura em madeira.</strong></p>
                                         </div>
                                     </div>
                                 </div>

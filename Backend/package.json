@@ -1,0 +1,20 @@
+{
+  "name": "quadro-sul",
+  "version": "1.0.0",
+  "description": "Project created for QuadroSul",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Carlos Sempe",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
