@@ -23,7 +23,7 @@
     "@zeit/next-stylus": "^1.0.1",
     "axios": "^0.19.2",
     "crypto": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^7.0.0",
     "imagemin-svgo": "^7.0.0",
